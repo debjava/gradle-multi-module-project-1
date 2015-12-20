@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ddlab.app.test.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-12-20T13:30:28" hostname="PIKU-PC" time="0.002">
+  <properties/>
+  <testcase name="test1" classname="com.ddlab.app.test.AppTest" time="0.002"/>
+  <system-out><![CDATA[Name from service :::abcd
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

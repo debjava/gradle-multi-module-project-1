@@ -1,0 +1,3 @@
+apply plugin: 'java'
+
+//There is no need to define the dependencies as all dependencies are inherited from parent

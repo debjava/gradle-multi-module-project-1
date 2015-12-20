@@ -1,0 +1,5 @@
+//Include all the modules here separted by comma(,)
+
+include 'module-service-api', 'module-service-impl','module-app'
+
+rootProject.name = 'gradle-multi-module-project-1'

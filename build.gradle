@@ -1,0 +1,42 @@
+//Root Parent Gradle 
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+//The following configuration is applicabel to all the sub projects or modules
+subprojects {
+    apply plugin: 'java'
+    group = 'com.ddlab.rnd.gradle'
+    version = '1.0.0.SNAPSHOT'
+    
+    repositories {
+        mavenCentral()
+    }
+    
+    dependencies {
+    	//Define all the jar dependency applicable to all sub projects or modules
+        testCompile "junit:junit:4.12"
+    }
+}
+
+project(':module-service-impl') { 
+
+   dependencies {
+      compile project(':module-service-api')
+      compile 'org.apache.commons:commons-lang3:3.3.2'
+      compile 'log4j:log4j:1.2.17'
+   }
+} 
+
+//module-app depends on module-service-impl
+project(':module-app') { 
+
+   dependencies {
+      compile project(':module-service-impl')
+   }
+   
+} 

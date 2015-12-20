@@ -1,0 +1,12 @@
+{
+  "1.0": {
+    "project_path": ":module-app",
+    "project_dir": "E:\\gradle-rnd\\Project-1\\module-app",
+    "connection_project_dir": "E:\\gradle-rnd\\Project-1",
+    "connection_gradle_user_home": "E:\\mvn-gradle-repo",
+    "connection_gradle_distribution": "GRADLE_DISTRIBUTION(LOCAL_INSTALLATION(E:\\dev\\gradle-2.9))",
+    "connection_java_home": "E:\\dev\\java7\\jdk7",
+    "connection_jvm_arguments": "",
+    "connection_arguments": ""
+  }
+}

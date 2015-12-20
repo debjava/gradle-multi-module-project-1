@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+//Everything has been defined in parent gradle file
+/*
+dependencies {
+	//compile project(':module-service-api') //Not required
+	compile project(':module-service-impl')
+}
+*/
